@@ -1,0 +1,9 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    group:
+      local:
+        - local
+      test:
+        - test
